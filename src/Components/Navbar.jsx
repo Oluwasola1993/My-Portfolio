@@ -3,6 +3,13 @@ import "./Navbar.css";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
+  const handleScroll = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div id="Home">
       <nav className="navbar navbar-expand-lg bg-body-tertiary ps-lg-5 px-3 pe-lg-0 py-lg-3 shadow-sm fixed-top">
@@ -66,6 +73,7 @@ const Navbar = () => {
                       aria-current="page"
                       smooth
                       to="#Hero"
+                      onClick={() => handleScroll("Hero")}
                     >
                       <i className="fa fa-star-o"></i>
                       <span>Home</span>
@@ -74,7 +82,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-4 col-sm">
                   <li className="nav-item">
-                    <Link className="nav-link" smooth to="#About">
+                    <Link
+                      className="nav-link"
+                      smooth
+                      to="#About"
+                      onClick={() => handleScroll("About")}
+                    >
                       <i className="fa fa-user-o"></i>
                       <span>About</span>
                     </Link>
@@ -82,7 +95,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-4 col-sm">
                   <li className="nav-item">
-                    <Link className="nav-link" smooth to="#Skills">
+                    <Link
+                      className="nav-link"
+                      smooth
+                      to="#Skills"
+                      onClick={() => handleScroll("Skills")}
+                    >
                       <i className="fa fa-lightbulb"> </i>
                       <span>Skills</span>
                     </Link>
@@ -90,7 +108,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-4 col-sm">
                   <li className="nav-item">
-                    <Link className="nav-link" smooth to="#Projects">
+                    <Link
+                      className="nav-link"
+                      smooth
+                      to="#Projects"
+                      onClick={() => handleScroll("Projects")}
+                    >
                       <i className="fa fa-gear fa-spin fa-3x fa-fw p-0"></i>
                       <span className="ps-">Projects</span>
                     </Link>
@@ -98,7 +121,12 @@ const Navbar = () => {
                 </div>
                 <div className="col-4 col-sm">
                   <li className="nav-item">
-                    <Link className="nav-link" smooth to="#Contact">
+                    <Link
+                      className="nav-link"
+                      smooth
+                      to="#Contact"
+                      onClick={() => handleScroll("Contact")}
+                    >
                       <i className="fa fa-address-book-o"></i>
                       <span>Contact</span>
                     </Link>
