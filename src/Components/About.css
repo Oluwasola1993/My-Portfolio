@@ -1,6 +1,9 @@
 #About-me {
     padding-top: 80px !important;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   .hidden {
     opacity: 0;
     filter: blur(5px);

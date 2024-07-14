@@ -3,6 +3,11 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background-image: linear-gradient(
       to left,
@@ -11,6 +16,7 @@
     );
    
   }
+
   nav {
     background-image: linear-gradient(
       to left,
