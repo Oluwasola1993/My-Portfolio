@@ -26,7 +26,7 @@ const About = () => {
   return (
     <section
       id="About-me"
-      className="d-grid justify-content-center align-items-center position-relative container-fluid p-5 bg- about-me-container"
+      className="d-grid justify-content-center align-itemsole -center position-relative container-fluid p-5 bg- about-me-container"
     >
       <h1 className="hidden display-3 text-center">About Me</h1>
       <div className="hidden row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me shadow ">
