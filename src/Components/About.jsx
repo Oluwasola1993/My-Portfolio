@@ -1,6 +1,7 @@
 import React from "react";
 import { useRef, useEffect } from "react";
 import "./About.css";
+import Sholly from "../assets/pixxx.jpeg"
 
 const About = () => {
   const navButtonRef = useRef(null); // Ref to store the navigation button element
@@ -32,8 +33,8 @@ const About = () => {
       <div className="hidden row d-flex justify-content-center align-content-center p-4 m-lg-5 rounded-4 gap-1 about-me shadow ">
         <div className="col-4 about-left">
           <img
-            src="fb.jpg"
-            alt=""
+            src={Sholly}
+            alt="sholly"
             width={300}
             className="rounded-4 about-img shadow p-1 "
           />
