@@ -1,5 +1,13 @@
 import React from "react";
 import "./Projects.css";
+import Edzz from "../assets/Edozzier Clone.gif"
+import Van from "../assets/Van-Life Clone.gif"
+import LC from "../assets/Love Calculator.gif"
+import SP from "../assets/schl portal.gif"
+import Weather from "../assets/Weather-App.gif"
+import Bank from "../assets/Bank-App.gif"
+import Calculator from "../assets/Calculator.gif"
+import Firebase from "../assets/firebase.png"
 
 const Projects = () => {
   return (
@@ -13,21 +21,21 @@ const Projects = () => {
       <div className="row d-flex justify-content-center align-items-center p-5 gap- container-fluid m-0">
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card">
-            <img className="card__background" src="" alt="" />
+            <img className="card__background" src={Edzz} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
-                <h2 className="card__title">Paypal Landing Page</h2>
+                <h2 className="card__title">Edozzier Home Page</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://paypalstaticwebclone.netlify.app/"
+                  href="https://live-coding-test-gamma.vercel.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/Paypal-clone"
+                  href="https://github.com/Oluwasola1993/Live-Coding-Test"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -37,21 +45,21 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="" alt="" />
+            <img className="card__background" src={Van} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
-                <h2 className="card__title">Konga Clone (E-commerce)</h2>
+                <h2 className="card__title">Van Life Clone</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://konga-clone-deeminentcoder.netlify.app/"
+                  href="https://van-life-new-pied.vercel.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/Konga-E-commerce-site"
+                  href="https://github.com/Oluwasola1993/Van-life"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -61,7 +69,7 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="" alt="" />
+            <img className="card__background" src={LC} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
                 <h2 className="card__title">Love Calculator App</h2>
@@ -69,13 +77,13 @@ const Projects = () => {
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://love-calc-deeminentcoder.netlify.app/"
+                  href="https://love-calculator-khaki.vercel.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/Love-Calculator"
+                  href="https://github.com/Oluwasola1993/Love-Calculator"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -85,21 +93,21 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="" alt="" />
+            <img className="card__background" src={SP} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
-                <h2 className="card__title">Task-management App</h2>
+                <h2 className="card__title">Simple School Portal App</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://taskmanagement-todo.netlify.app/"
+                  href="https://javascript-green.vercel.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/Todo-App"
+                  href="https://github.com/Oluwasola1993/Javascript"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -109,18 +117,18 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="" alt="" />
+            <img className="card__background" src={Weather} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
                 <h2 className="card__title">Weather App</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
-                <a target="_blank" href="https://simeonweather.netlify.app/">
+                <a target="_blank" href="https://clima-view-brown.vercel.app/">
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/My-Weather-App"
+                  href="https://github.com/Oluwasola1993/ClimaView"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -130,21 +138,21 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="" alt="" />
+            <img className="card__background" src={Firebase} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
-                <h2 className="card__title">Currency Converter</h2>
+                <h2 className="card__title">Flexible Sign-Up Methods with Firebase Authentication</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://currency-converter-deeminentcoder.netlify.app/converter"
+                  href="https://oluwasola1993.github.io/Firebase-Assignment/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/Currency-Converter"
+                  href="https://github.com/Oluwasola1993/Firebase-Assignment"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -154,21 +162,21 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="calc.png" alt="" />
+            <img className="card__background" src={Calculator} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
-                <h2 className="card__title">Scientific Calculator</h2>
+                <h2 className="card__title">Calculator</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://scientific-calculator-deeminentcoder.netlify.app/"
+                  href="https://calculator-umber-two.vercel.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/Calculator"
+                  href="https://github.com/Oluwasola1993/Calculator"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
@@ -178,21 +186,21 @@ const Projects = () => {
         </div>
         <div className="hidden col col-lg-6 pb- mb-4">
           <div className="card ">
-            <img className="card__background" src="pig.png" alt="" />
+            <img className="card__background" src={Bank} alt="" />
             <div className="card__content | flow p-4 ">
               <div className="card__content--container | flow">
-                <h2 className="card__title">Piggyvest clone</h2>
+                <h2 className="card__title">Bank App</h2>
               </div>
               <div className="card__button d-flex align-items-center justify-content-center social">
                 <a
                   target="_blank"
-                  href="https://piggyvest-staticweb-clone.netlify.app/"
+                  href="https://banking-app-front-end.vercel.app/"
                 >
                   <i className="fa fa-link " aria-hidden="true"></i>
                 </a>
                 <a
                   target="_blank"
-                  href="https://github.com/DeEminentCoder/PiggyVest-Site"
+                  href="https://github.com/Oluwasola1993/Banking-App-Front-End"
                 >
                   <i className="fa fa-file-code-o" aria-hidden="true"></i>
                 </a>
